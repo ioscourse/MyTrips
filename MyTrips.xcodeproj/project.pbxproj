@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3623FAD819045B72007E85D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3623FAD719045B72007E85D8 /* Foundation.framework */; };
+		3623FADA19045B72007E85D8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3623FAD919045B72007E85D8 /* CoreGraphics.framework */; };
+		3623FADC19045B72007E85D8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3623FADB19045B72007E85D8 /* UIKit.framework */; };
+		3623FADE19045B72007E85D8 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3623FADD19045B72007E85D8 /* CoreData.framework */; };
+		3623FAE419045B72007E85D8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3623FAE219045B72007E85D8 /* InfoPlist.strings */; };
+		3623FAE619045B72007E85D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3623FAE519045B72007E85D8 /* main.m */; };
+		3623FAEA19045B72007E85D8 /* MyTripsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3623FAE919045B72007E85D8 /* MyTripsAppDelegate.m */; };
+		3623FAED19045B72007E85D8 /* MyTrips.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3623FAEB19045B72007E85D8 /* MyTrips.xcdatamodeld */; };
+		3623FAEF19045B72007E85D8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3623FAEE19045B72007E85D8 /* Images.xcassets */; };
+		3623FAF619045B72007E85D8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3623FAF519045B72007E85D8 /* XCTest.framework */; };
+		3623FAF719045B72007E85D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3623FAD719045B72007E85D8 /* Foundation.framework */; };
+		3623FAF819045B72007E85D8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3623FADB19045B72007E85D8 /* UIKit.framework */; };
+		3623FAF919045B72007E85D8 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3623FADD19045B72007E85D8 /* CoreData.framework */; };
+		3623FB0119045B72007E85D8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3623FAFF19045B72007E85D8 /* InfoPlist.strings */; };
+		3623FB0319045B72007E85D8 /* MyTripsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3623FB0219045B72007E85D8 /* MyTripsTests.m */; };
+		3623FB0D19045C01007E85D8 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3623FB0C19045C01007E85D8 /* Storyboard.storyboard */; };
+		3623FB1119045C86007E85D8 /* MyTripsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3623FB1019045C86007E85D8 /* MyTripsTableViewController.m */; };
+		3623FB1419045CD3007E85D8 /* MyTripsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3623FB1319045CD3007E85D8 /* MyTripsViewController.m */; };
+		3623FB16190487A0007E85D8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3623FB15190487A0007E85D8 /* MapKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3623FAFA19045B72007E85D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3623FACC19045B72007E85D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3623FAD319045B72007E85D8;
+			remoteInfo = MyTrips;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3623FAD419045B72007E85D8 /* MyTrips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyTrips.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3623FAD719045B72007E85D8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3623FAD919045B72007E85D8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3623FADB19045B72007E85D8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3623FADD19045B72007E85D8 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		3623FAE119045B72007E85D8 /* MyTrips-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyTrips-Info.plist"; sourceTree = "<group>"; };
+		3623FAE319045B72007E85D8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3623FAE519045B72007E85D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3623FAE719045B72007E85D8 /* MyTrips-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyTrips-Prefix.pch"; sourceTree = "<group>"; };
+		3623FAE819045B72007E85D8 /* MyTripsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTripsAppDelegate.h; sourceTree = "<group>"; };
+		3623FAE919045B72007E85D8 /* MyTripsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTripsAppDelegate.m; sourceTree = "<group>"; };
+		3623FAEC19045B72007E85D8 /* MyTrips.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyTrips.xcdatamodel; sourceTree = "<group>"; };
+		3623FAEE19045B72007E85D8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3623FAF419045B72007E85D8 /* MyTripsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyTripsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3623FAF519045B72007E85D8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3623FAFE19045B72007E85D8 /* MyTripsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyTripsTests-Info.plist"; sourceTree = "<group>"; };
+		3623FB0019045B72007E85D8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3623FB0219045B72007E85D8 /* MyTripsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTripsTests.m; sourceTree = "<group>"; };
+		3623FB0C19045C01007E85D8 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		3623FB0F19045C86007E85D8 /* MyTripsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTripsTableViewController.h; sourceTree = "<group>"; };
+		3623FB1019045C86007E85D8 /* MyTripsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTripsTableViewController.m; sourceTree = "<group>"; };
+		3623FB1219045CD3007E85D8 /* MyTripsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTripsViewController.h; sourceTree = "<group>"; };
+		3623FB1319045CD3007E85D8 /* MyTripsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTripsViewController.m; sourceTree = "<group>"; };
+		3623FB15190487A0007E85D8 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3623FAD119045B72007E85D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3623FB16190487A0007E85D8 /* MapKit.framework in Frameworks */,
+				3623FADA19045B72007E85D8 /* CoreGraphics.framework in Frameworks */,
+				3623FADE19045B72007E85D8 /* CoreData.framework in Frameworks */,
+				3623FADC19045B72007E85D8 /* UIKit.framework in Frameworks */,
+				3623FAD819045B72007E85D8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3623FAF119045B72007E85D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3623FAF619045B72007E85D8 /* XCTest.framework in Frameworks */,
+				3623FAF919045B72007E85D8 /* CoreData.framework in Frameworks */,
+				3623FAF819045B72007E85D8 /* UIKit.framework in Frameworks */,
+				3623FAF719045B72007E85D8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3623FACB19045B72007E85D8 = {
+			isa = PBXGroup;
+			children = (
+				3623FB0E19045C6A007E85D8 /* pages */,
+				3623FB0C19045C01007E85D8 /* Storyboard.storyboard */,
+				3623FADF19045B72007E85D8 /* MyTrips */,
+				3623FAFC19045B72007E85D8 /* MyTripsTests */,
+				3623FAD619045B72007E85D8 /* Frameworks */,
+				3623FAD519045B72007E85D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3623FAD519045B72007E85D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3623FAD419045B72007E85D8 /* MyTrips.app */,
+				3623FAF419045B72007E85D8 /* MyTripsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3623FAD619045B72007E85D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3623FB15190487A0007E85D8 /* MapKit.framework */,
+				3623FAD719045B72007E85D8 /* Foundation.framework */,
+				3623FAD919045B72007E85D8 /* CoreGraphics.framework */,
+				3623FADB19045B72007E85D8 /* UIKit.framework */,
+				3623FADD19045B72007E85D8 /* CoreData.framework */,
+				3623FAF519045B72007E85D8 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3623FADF19045B72007E85D8 /* MyTrips */ = {
+			isa = PBXGroup;
+			children = (
+				3623FAE819045B72007E85D8 /* MyTripsAppDelegate.h */,
+				3623FAE919045B72007E85D8 /* MyTripsAppDelegate.m */,
+				3623FAEE19045B72007E85D8 /* Images.xcassets */,
+				3623FAEB19045B72007E85D8 /* MyTrips.xcdatamodeld */,
+				3623FAE019045B72007E85D8 /* Supporting Files */,
+			);
+			path = MyTrips;
+			sourceTree = "<group>";
+		};
+		3623FAE019045B72007E85D8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3623FAE119045B72007E85D8 /* MyTrips-Info.plist */,
+				3623FAE219045B72007E85D8 /* InfoPlist.strings */,
+				3623FAE519045B72007E85D8 /* main.m */,
+				3623FAE719045B72007E85D8 /* MyTrips-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3623FAFC19045B72007E85D8 /* MyTripsTests */ = {
+			isa = PBXGroup;
+			children = (
+				3623FB0219045B72007E85D8 /* MyTripsTests.m */,
+				3623FAFD19045B72007E85D8 /* Supporting Files */,
+			);
+			path = MyTripsTests;
+			sourceTree = "<group>";
+		};
+		3623FAFD19045B72007E85D8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3623FAFE19045B72007E85D8 /* MyTripsTests-Info.plist */,
+				3623FAFF19045B72007E85D8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3623FB0E19045C6A007E85D8 /* pages */ = {
+			isa = PBXGroup;
+			children = (
+				3623FB0F19045C86007E85D8 /* MyTripsTableViewController.h */,
+				3623FB1019045C86007E85D8 /* MyTripsTableViewController.m */,
+				3623FB1219045CD3007E85D8 /* MyTripsViewController.h */,
+				3623FB1319045CD3007E85D8 /* MyTripsViewController.m */,
+			);
+			name = pages;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3623FAD319045B72007E85D8 /* MyTrips */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3623FB0619045B72007E85D8 /* Build configuration list for PBXNativeTarget "MyTrips" */;
+			buildPhases = (
+				3623FAD019045B72007E85D8 /* Sources */,
+				3623FAD119045B72007E85D8 /* Frameworks */,
+				3623FAD219045B72007E85D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyTrips;
+			productName = MyTrips;
+			productReference = 3623FAD419045B72007E85D8 /* MyTrips.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3623FAF319045B72007E85D8 /* MyTripsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3623FB0919045B72007E85D8 /* Build configuration list for PBXNativeTarget "MyTripsTests" */;
+			buildPhases = (
+				3623FAF019045B72007E85D8 /* Sources */,
+				3623FAF119045B72007E85D8 /* Frameworks */,
+				3623FAF219045B72007E85D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3623FAFB19045B72007E85D8 /* PBXTargetDependency */,
+			);
+			name = MyTripsTests;
+			productName = MyTripsTests;
+			productReference = 3623FAF419045B72007E85D8 /* MyTripsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3623FACC19045B72007E85D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MyTrips;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Rock Valley College";
+				TargetAttributes = {
+					3623FAF319045B72007E85D8 = {
+						TestTargetID = 3623FAD319045B72007E85D8;
+					};
+				};
+			};
+			buildConfigurationList = 3623FACF19045B72007E85D8 /* Build configuration list for PBXProject "MyTrips" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3623FACB19045B72007E85D8;
+			productRefGroup = 3623FAD519045B72007E85D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3623FAD319045B72007E85D8 /* MyTrips */,
+				3623FAF319045B72007E85D8 /* MyTripsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3623FAD219045B72007E85D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3623FAE419045B72007E85D8 /* InfoPlist.strings in Resources */,
+				3623FAEF19045B72007E85D8 /* Images.xcassets in Resources */,
+				3623FB0D19045C01007E85D8 /* Storyboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3623FAF219045B72007E85D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3623FB0119045B72007E85D8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3623FAD019045B72007E85D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3623FAE619045B72007E85D8 /* main.m in Sources */,
+				3623FAEA19045B72007E85D8 /* MyTripsAppDelegate.m in Sources */,
+				3623FB1119045C86007E85D8 /* MyTripsTableViewController.m in Sources */,
+				3623FB1419045CD3007E85D8 /* MyTripsViewController.m in Sources */,
+				3623FAED19045B72007E85D8 /* MyTrips.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3623FAF019045B72007E85D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3623FB0319045B72007E85D8 /* MyTripsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3623FAFB19045B72007E85D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3623FAD319045B72007E85D8 /* MyTrips */;
+			targetProxy = 3623FAFA19045B72007E85D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3623FAE219045B72007E85D8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3623FAE319045B72007E85D8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3623FAFF19045B72007E85D8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3623FB0019045B72007E85D8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3623FB0419045B72007E85D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3623FB0519045B72007E85D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3623FB0719045B72007E85D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyTrips/MyTrips-Prefix.pch";
+				INFOPLIST_FILE = "MyTrips/MyTrips-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3623FB0819045B72007E85D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyTrips/MyTrips-Prefix.pch";
+				INFOPLIST_FILE = "MyTrips/MyTrips-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3623FB0A19045B72007E85D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MyTrips.app/MyTrips";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyTrips/MyTrips-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MyTripsTests/MyTripsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3623FB0B19045B72007E85D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MyTrips.app/MyTrips";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyTrips/MyTrips-Prefix.pch";
+				INFOPLIST_FILE = "MyTripsTests/MyTripsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3623FACF19045B72007E85D8 /* Build configuration list for PBXProject "MyTrips" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3623FB0419045B72007E85D8 /* Debug */,
+				3623FB0519045B72007E85D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3623FB0619045B72007E85D8 /* Build configuration list for PBXNativeTarget "MyTrips" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3623FB0719045B72007E85D8 /* Debug */,
+				3623FB0819045B72007E85D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3623FB0919045B72007E85D8 /* Build configuration list for PBXNativeTarget "MyTripsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3623FB0A19045B72007E85D8 /* Debug */,
+				3623FB0B19045B72007E85D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3623FAEB19045B72007E85D8 /* MyTrips.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3623FAEC19045B72007E85D8 /* MyTrips.xcdatamodel */,
+			);
+			currentVersion = 3623FAEC19045B72007E85D8 /* MyTrips.xcdatamodel */;
+			path = MyTrips.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3623FACC19045B72007E85D8 /* Project object */;
+}
